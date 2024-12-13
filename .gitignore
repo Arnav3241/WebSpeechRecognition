@@ -2,3 +2,5 @@ Drivers
 build
 dist
 venv
+
+.pypirc
