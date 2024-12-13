@@ -1,0 +1,287 @@
+[
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "getcwd",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "getcwd",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "SpeechRecognition",
+        "importPath": "WebSpeechRecognition",
+        "description": "WebSpeechRecognition",
+        "isExtraImport": true,
+        "detail": "WebSpeechRecognition",
+        "documentation": {}
+    },
+    {
+        "label": "importlib.resources",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib.resources",
+        "description": "importlib.resources",
+        "detail": "importlib.resources",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "SpeechRecognition",
+        "kind": 6,
+        "importPath": "build.lib.WebSpeechRecognition.main",
+        "description": "build.lib.WebSpeechRecognition.main",
+        "peekOfCode": "class SpeechRecognition:\n  \"\"\"\n  Main class for SpeechRecognition.\n  Handles initializing the driver, listening to speech input, and cleanup.\n  \"\"\"\n  def __init__(self, driver_path, language=\"en-US\"):\n    \"\"\"\n    Initialize the SpeechRecognition class with a path to ChromeDriver and select your desired language.\n    Args:\n    - driver_path (str): Path to ChromeDriver executable.",
+        "detail": "build.lib.WebSpeechRecognition.main",
+        "documentation": {}
+    },
+    {
+        "label": "driver_path",
+        "kind": 5,
+        "importPath": "Tests.test",
+        "description": "Tests.test",
+        "peekOfCode": "driver_path = \"path_to_your_chrome_webdriver\"\n# Create a SpeechRecognition object with language code\nrecognizer = SpeechRecognition(driver_path, \"en-IN\")\n# Start the WebDriver\nrecognizer.Init()\n# Listen for speech and print results\nwhile True:\n  print(recognizer.Listen(print_allowed=True))",
+        "detail": "Tests.test",
+        "documentation": {}
+    },
+    {
+        "label": "recognizer",
+        "kind": 5,
+        "importPath": "Tests.test",
+        "description": "Tests.test",
+        "peekOfCode": "recognizer = SpeechRecognition(driver_path, \"en-IN\")\n# Start the WebDriver\nrecognizer.Init()\n# Listen for speech and print results\nwhile True:\n  print(recognizer.Listen(print_allowed=True))",
+        "detail": "Tests.test",
+        "documentation": {}
+    },
+    {
+        "label": "ListenInit",
+        "kind": 2,
+        "importPath": "Tests.vOne",
+        "description": "Tests.vOne",
+        "peekOfCode": "def ListenInit(Driver): \n  global driver\n  service = Service(Driver)\n  chrome_options = webdriver.ChromeOptions()\n  chrome_options.add_argument(\"--use-fake-ui-for-media-stream\")\n  chrome_options.add_argument(\"--headless=new\")\n  chrome_options.add_argument(\"--allow-insecure-localhost\")\n  chrome_options.add_argument(\"--disable-web-security\")\n  chrome_options.add_argument(\"--disable-features=IsolateOrigins,site-per-process\")\n  chrome_options.add_argument(\"--use-fake-device-for-media-stream\")",
+        "detail": "Tests.vOne",
+        "documentation": {}
+    },
+    {
+        "label": "Listen",
+        "kind": 2,
+        "importPath": "Tests.vOne",
+        "description": "Tests.vOne",
+        "peekOfCode": "def Listen(printAllowed=False): \n  driver.get(website)\n  driver.find_element(by=By.ID, value='start').click()\n  if printAllowed: print(\"Listening ...\")\n  while True:\n    text = driver.find_element(by=By.ID, value='output').text\n    if text != \"\":\n      if printAllowed: print(f\"You : {text}\")\n      driver.find_element(by=By.ID, value='end').click()\n      return text",
+        "detail": "Tests.vOne",
+        "documentation": {}
+    },
+    {
+        "label": "website",
+        "kind": 5,
+        "importPath": "Tests.vOne",
+        "description": "Tests.vOne",
+        "peekOfCode": "website = str(path.abspath(__file__))[0:-7]\nwebsite = (website, \"web.html\")\nwebsite = \"\".join(website)\nprint(website)\ndriver = None\ndef ListenInit(Driver): \n  global driver\n  service = Service(Driver)\n  chrome_options = webdriver.ChromeOptions()\n  chrome_options.add_argument(\"--use-fake-ui-for-media-stream\")",
+        "detail": "Tests.vOne",
+        "documentation": {}
+    },
+    {
+        "label": "website",
+        "kind": 5,
+        "importPath": "Tests.vOne",
+        "description": "Tests.vOne",
+        "peekOfCode": "website = (website, \"web.html\")\nwebsite = \"\".join(website)\nprint(website)\ndriver = None\ndef ListenInit(Driver): \n  global driver\n  service = Service(Driver)\n  chrome_options = webdriver.ChromeOptions()\n  chrome_options.add_argument(\"--use-fake-ui-for-media-stream\")\n  chrome_options.add_argument(\"--headless=new\")",
+        "detail": "Tests.vOne",
+        "documentation": {}
+    },
+    {
+        "label": "website",
+        "kind": 5,
+        "importPath": "Tests.vOne",
+        "description": "Tests.vOne",
+        "peekOfCode": "website = \"\".join(website)\nprint(website)\ndriver = None\ndef ListenInit(Driver): \n  global driver\n  service = Service(Driver)\n  chrome_options = webdriver.ChromeOptions()\n  chrome_options.add_argument(\"--use-fake-ui-for-media-stream\")\n  chrome_options.add_argument(\"--headless=new\")\n  chrome_options.add_argument(\"--allow-insecure-localhost\")",
+        "detail": "Tests.vOne",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "Tests.vOne",
+        "description": "Tests.vOne",
+        "peekOfCode": "driver = None\ndef ListenInit(Driver): \n  global driver\n  service = Service(Driver)\n  chrome_options = webdriver.ChromeOptions()\n  chrome_options.add_argument(\"--use-fake-ui-for-media-stream\")\n  chrome_options.add_argument(\"--headless=new\")\n  chrome_options.add_argument(\"--allow-insecure-localhost\")\n  chrome_options.add_argument(\"--disable-web-security\")\n  chrome_options.add_argument(\"--disable-features=IsolateOrigins,site-per-process\")",
+        "detail": "Tests.vOne",
+        "documentation": {}
+    },
+    {
+        "label": "SpeechRecognition",
+        "kind": 6,
+        "importPath": "Tests.vTwo",
+        "description": "Tests.vTwo",
+        "peekOfCode": "class SpeechRecognition:\n  \"\"\"\n  Main class for SpeechRecognition.\n  Handles initializing the driver, listening to speech input, and cleanup.\n  \"\"\"\n  def __init__(self, driver_path, website_file):\n    \"\"\"\n    Initialize the SpeechRecognition class with a path to ChromeDriver and locate the website file.\n    Args:\n    - driver_path (str): Path to ChromeDriver executable.",
+        "detail": "Tests.vTwo",
+        "documentation": {}
+    },
+    {
+        "label": "SpeechRecognition",
+        "kind": 6,
+        "importPath": "WebSpeechRecognition.main",
+        "description": "WebSpeechRecognition.main",
+        "peekOfCode": "class SpeechRecognition:\n  \"\"\"\n  Main class for SpeechRecognition.\n  Handles initializing the driver, listening to speech input, and cleanup.\n  \"\"\"\n  def __init__(self, driver_path, language=\"en-US\"):\n    \"\"\"\n    Initialize the SpeechRecognition class with a path to ChromeDriver and select your desired language.\n    Args:\n    - driver_path (str): Path to ChromeDriver executable.",
+        "detail": "WebSpeechRecognition.main",
+        "documentation": {}
+    }
+]

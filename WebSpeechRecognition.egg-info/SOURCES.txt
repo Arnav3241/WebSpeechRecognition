@@ -1,0 +1,9 @@
+README.md
+setup.py
+WebSpeechRecognition/__init__.py
+WebSpeechRecognition/main.py
+WebSpeechRecognition.egg-info/PKG-INFO
+WebSpeechRecognition.egg-info/SOURCES.txt
+WebSpeechRecognition.egg-info/dependency_links.txt
+WebSpeechRecognition.egg-info/requires.txt
+WebSpeechRecognition.egg-info/top_level.txt

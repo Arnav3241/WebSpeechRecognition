@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speech Recognition</title>
+</head>
+
+<body>
+  <button id="start" onclick="Recognition()">Start</button>
+  <button id="end" onclick="Clear()">Clear</button>
+  <p id="output"></p>
+
+  <script>
+    const output = document.getElementById('output');
+    let recognition;
+    let userLanguage = 'en-US';
+
+    // Parse the language from query string
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has('lang')) {
+      userLanguage = urlParams.get('lang');
+    }
+
+    const Recognition = () => {
+      recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+      recognition.lang = userLanguage; // Dynamically set language based on the passed query parameter
+      recognition.continuous = true;
+      recognition.onresult = function (event) {
+        const transcript = event.results[event.results.length - 1][0].transcript;
+        output.textContent += transcript;
+      };
+      recognition.onend = function () {
+        recognition.start();
+      };
+      recognition.start();
+    }
+
+    const Clear = () => {
+      if (recognition) recognition.stop();
+      output.innerHTML = "";
+    }
+  </script>
+</body>
+
+</html>
